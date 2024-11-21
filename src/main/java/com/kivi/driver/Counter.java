@@ -1,4 +1,4 @@
-package com.kivi;
+package com.kivi.driver;
 
 import com.kivi.model.AWTCounter;
 

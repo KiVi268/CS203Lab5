@@ -26,7 +26,7 @@ public class AWTCounter extends Frame {
         btnCount.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent evt) {
-                counter++; // Увеличиваем счётчик
+                counter++;
                 tfCounter.setText(String.valueOf(counter));
             }
         });
@@ -49,10 +49,6 @@ public class AWTCounter extends Frame {
                 System.exit(0);
             }
         });
-    }
-
-    public static void main(String[] args) {
-        new AWTCounter();
     }
 }
 
